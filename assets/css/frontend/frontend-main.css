@@ -1,0 +1,227 @@
+.left-side-check-span {
+	display: block;
+	margin-bottom: 5px;
+}
+.booking_checkout_box li {
+	display: inline-block;
+	margin-bottom: 12px;
+	margin-right: 2%;
+	text-align: left;
+	width: 22%;
+}
+form.hotel_search_form .select2-container--default .select2-selection--single {
+	border: 1px solid #cccccc;
+}
+form.hotel_search_form .dv_col .fc.input_text.hasDatepicker {
+	width: 100%;
+}
+form.hotel_search_form .atithi_submit_button.atithi-md-3.atithi-sm-3 {
+	padding: 0;
+	width: 15%;
+}
+form.hotel_search_form .dv_col.atithi-md-3.atithi-sm-3 input {
+	width: 93%;
+}
+form.hotel_search_form .dv_both_row {
+	margin-bottom: 20px;
+}
+.select2.select2-container.select2-container--default {
+	width: 100% !important;
+}
+.hotel_search_form_errors {
+	border: 0px solid #f00;
+	margin: 2px;
+	padding: 3px;
+	color: #f00;/*display: none;*/
+
+
+
+
+
+
+
+
+
+
+
+}
+.hotel_search_form_errors_ul {
+	margin: 0;
+	padding: 0;
+	border: 0px solid #f00;
+}
+.hotel_search_form_errors_li {
+	margin: 0;
+	padding: 0;
+	border: 0px solid #f00;
+}
+.gahb_core_container .clearboth {
+	clear:both;
+}
+.gahb_core_container .dv_col {
+  display: inline-block;
+  width: 29%;
+  margin-right: 2.1%;
+}
+.atithi_search_top .has_right_border {
+  border-right: 1px solid #ccc;
+  min-height: 50px;
+  padding: 0px 10px;
+}
+.visible-stb .atithi-md-1.atithi-sm-1 {
+  padding: 0 6px;
+  text-align: center;
+}
+.atithi_search_top {
+	background-color: #fff;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px #ccc;
+	padding:10px;
+}
+.search_filter_data.atithi_search_top h4 {
+	padding-left:15px;
+	margin-top:0px;
+}
+.atithi-search-city-name {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1;
+	padding-top: 5%;
+}
+.atithi-search-country_name {
+	font-size: 12px;
+}
+.atithi-md-2.atithi-sm-2 {
+    padding: 0 5px;
+}
+.booking_checkout_box > ul {
+    padding: 0;
+}
+.atithi_search_captions {
+	font-size:9px;
+	font-weight:normal;
+	margin-bottom: 4px;
+	text-transform: uppercase;
+}
+.atithi-md-2.atithi-sm-2.has_right_border {
+    padding-right: 0 !important;
+    width: 17%;
+}
+.atithi-md-1.atithi-sm-1.adults_cls {
+    width: 9%;
+}
+.atithi-check-dates {
+	position: relative;
+}
+/*.arrow_greater {
+	background-position: -1px -203px !important;
+	width: 6px;
+	height: 10px;
+	position: absolute;
+	right: -5px;
+	background: url(../../images/hotel_listing_sprite.png) no-repeat;
+	font-size: 0;
+}*/
+.glyphicon-calendar:before {
+	content: "\e109";
+}
+.atithi-check-dates .glyphicon-calendar {
+	font-size: 18px;
+}
+.glyphicon:empty {
+	width: 1em;
+}
+.dv_col.atithi-md-3.atithi-sm-3 input {
+	width: 100%;
+}
+.dv_col.atithi-md-3.atithi-sm-3 {
+	margin: 0 !important;
+	display: inline !important;
+	padding: 0;
+	width: 25%;
+	margin-right: 5px !important;
+}
+.atithi_submit_button.atithi-md-3.atithi-sm-3 {
+	padding: 0;
+	width: 21%;
+}
+.atithi_submit_button.atithi-md-3.atithi-sm-3 input#hotel_search_submit {
+  padding: 5px 16px;
+  margin-top: 10px;
+}
+.room_book_search.atithi-md-2.atithi-sm-2 a {
+    background-color: #eee;
+    border: 1px solid;
+    border-radius: 3px;
+    color: #777;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+}
+.room_title_search a {
+    font-size: 18px;
+}
+.atithi-md-2.atithi-sm-2 .atithi_button {
+}
+.atithi_main_conatiner_li {
+	list-style: none;
+	width: 100% !important;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.room_description_search.atithi-md-2.atithi-sm-2 .atithi_price_room {
+	margin: 0;
+	font-size: 18px;
+	text-align: right;
+	line-height: 15px;
+}
+.room_description_search.atithi-md-2.atithi-sm-2 .atithi_price_room_day {
+	font-size: 9px;
+	text-align: right;
+	font-weight: bold;
+}
+.booking_found_ul_class.heading .booking_found_li_class {
+	list-style: none;
+	display: inline-block;
+	margin-left: 4px;
+	width: 12% !important;
+	vertical-align: top;
+	font-weight: bold;
+}
+ul.booking_found_ul_class.heading {
+	background-color: #eee;
+	padding: 3px 7px;
+	margin: 0;
+	border: 1px solid #777;
+}
+.booking_found_ul_class.details .booking_found_li_class {
+	list-style: none;
+	display: inline-block;
+	margin-left: 4px;
+	width: 12% !important;
+	vertical-align: top;
+}
+ul.booking_found_ul_class.details {
+	border: 1px solid;
+	border-top: 0px #777;
+}
+.hotel_search_data_box ul {
+  padding: 0;
+}
+.room_book_search.atithi-md-2.atithi-sm-2 {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    width: 16%;
+}
+
+.atithi-md-2.atithi-sm-2.child-head {
+    padding: 0;
+    text-align: center;
+    width: 12%;
+}

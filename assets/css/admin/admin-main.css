@@ -1,0 +1,101 @@
+
+.gahb_core_container .gallery_meta_box .photos_li {
+    border: 1px solid #d5d5d5;
+    border-radius: 2px;
+    display: inline-block;
+    height: 74px;
+    margin: 7px 9px 0 0;
+    position: relative;
+    width: 74px;
+}
+.gahb_core_container .gallery_meta_box .photos_li:nth-child(3n) {
+margin-right:0px;
+}
+.gahb_core_container .gallery_meta_box .photos_li img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.gahb_core_container .gallery_meta_box .photos_li ul {
+    display: none;
+    padding: 2px;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+}
+.gahb_core_container .gallery_meta_box .photos_li ul li a.delete_photo_icon{
+	background-color: #000;
+	background-image: url("../../images/delete-icon.png");
+	background-position: -4px -4px;
+	background-repeat: no-repeat;
+	background-size: 1.5em auto;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	display: block;
+	height: 1em;
+	position: relative;
+	text-indent: -9999px;
+	width: 1em;
+}
+.gahb_core_container .gallery_meta_box .photos_li ul li
+{
+margin-bottom:0;
+}
+.gahb_core_container .gallery_meta_box .photos_li:hover ul
+{
+display:block;
+}
+
+.input_select{ width: 200px; }
+
+
+
+
+
+.gahb_core_container {
+    margin: 10px 20px 0 2px;
+}
+
+.gahb_core_container h2 {
+    margin: 0;
+    padding: 9px 15px 0 10px;
+	border-bottom: 1px solid #ccc;
+	font-size: 23px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.gahb_core_container h2 .gahb_core_container_nav_tab {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 6px 10px;
+}
+.gahb_core_container .gahb_core_container_nav_tab {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #e4e4e4 none repeat scroll 0 0;
+    border-color: #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    color: #555;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 4px -1px 0;
+    padding: 4px 14px 6px;
+    text-decoration: none;
+}
+
+.gahb_core_container .tab_active , .gahb_core_container .tab_active:hover{
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-bottom: 1px solid #f1f1f1;
+    color: #000;
+}
+
+.gahb_core_container .gahb_core_container_nav_tab:hover {
+    background: #fff none repeat scroll 0 0;
+}
