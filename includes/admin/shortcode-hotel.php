@@ -204,11 +204,11 @@ function add_list_hotel_shortcode_func() {
 
 
 
-							<div class="atithi-md-3 atithi-sm-3 has_right_border"><p class="atithi-search-city-name">Place: <?php echo get_the_title($search_criteria['hotel_search_place']); ?></p><p class="atithi-search-country_name">country name</p></div>
+							<div class="atithi-md-3 atithi-sm-3 has_right_border"><p class="atithi-search-city-name">Place: <?php echo get_the_title($search_criteria['hotel_search_place']); ?></p></div>
 
 
 
-						<div class="atithi-md-2 atithi-sm-2"><span class="atithi-check-dates"><p class="atithi_search_captions">CHECK-IN:</p> <span class="glyphicon glyphicon-calendar hidden-stb"></span> <?php echo date('F j, Y', strtotime($search_criteria['hotel_search_arrival_date'])); ?></span><span class="arrow_greater">&gt;</span></div>
+						<div class="atithi-md-2 atithi-sm-2"><span class="atithi-check-dates"><p class="atithi_search_captions">CHECK-IN:</p> <span class="glyphicon glyphicon-calendar hidden-stb"></span> <?php echo date('F j, Y', strtotime($search_criteria['hotel_search_arrival_date'])); ?></span><span class="arrow_greater"></span></div>
 
 
 
