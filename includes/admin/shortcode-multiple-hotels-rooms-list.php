@@ -51,19 +51,21 @@ function add_multiple_rooms_list_shortcode_func() {
 					<ul class="hotel_search_data_errors_ul">
 					</ul>
 				</div>
-				<?php if( isset($room_list) ) { ?>
+				<?php if( isset($room_list) ) { ?><h4>Search Criteria</h4>
                 <div class="search_filter_data atithi_search_top atithi-md-12 atithi-sm-12 hidden-xs visible-stb">
 <div class="row">
-					<h4>Search Criteria</h4>
+					
                     		
-							<div class="atithi-md-3 atithi-sm-3 has_right_border"><p class="atithi-search-city-name">Place: <?php echo get_the_title($search_criteria['hotel_search_place']); ?></p></div>
-						<div class="atithi-md-2 atithi-sm-2"><span class="atithi-check-dates"><p class="atithi_search_captions">CHECK-IN:</p> <span class="glyphicon glyphicon-calendar hidden-stb"></span> <?php echo date('F j, Y', strtotime($search_criteria['hotel_search_arrival_date'])); ?></span><span class="arrow_greater"></span></div>
-						<div class="atithi-md-2 atithi-sm-2 has_right_border"><span class="atithi-check-dates"><p class="atithi_search_captions">CHECK-OUT:</p> <span class="glyphicon glyphicon-calendar hidden-stb"></span> <?php echo date('F j, Y', strtotime($search_criteria['hotel_search_departure_date'])); ?></span></div>
-						<div class="atithi-md-1 atithi-sm-1"><p class="atithi_search_captions">Rooms:</p> <?php echo $search_criteria['hotel_search_rooms_count']; ?></div>
-						<div class="atithi-md-1 atithi-sm-1 adults_cls"><p class="atithi_search_captions">Adults:</p> <?php echo $search_criteria['hotel_search_adult_count']; ?></div>
-						<div class="atithi-md-2 atithi-sm-2 child-head"><p class="atithi_search_captions">Children:</p> <?php echo $search_criteria['hotel_search_children_count']; ?></div>
-						<div class="atithi-md-1 atithi-sm-1"><a href="?gahb_action=clear_hotel_search" class="atithi_button">Clear Search Filter</a></div>
+							<div class="atithi-md atithi-md-2 atithi-sm-3 has_right_border"><p class="atithi-search-city-name">Place: <?php echo get_the_title($search_criteria['hotel_search_place']); ?></p></div>
+						<div class="atithi-md atithi-md-2 atithi-sm-2"><span class="atithi-check-dates"><p class="atithi_search_captions">CHECK-IN:</p> <?php echo date('F j, Y', strtotime($search_criteria['hotel_search_arrival_date'])); ?></span><span class="arrow_greater"></span></div>
+						<div class="atithi-md atithi-md-2 atithi-sm-2 has_right_border"><span class="atithi-check-dates"><p class="atithi_search_captions">CHECK-OUT:</p> <?php echo date('F j, Y', strtotime($search_criteria['hotel_search_departure_date'])); ?></span></div>
+						<div class="atithi-md atithi-md-1 atithi-sm-1"><p class="atithi_search_captions">Rooms:</p> <?php echo $search_criteria['hotel_search_rooms_count']; ?></div>
+						<div class="atithi-md atithi-md-1 atithi-sm-1 adults_cls"><p class="atithi_search_captions">Adults:</p> <?php echo $search_criteria['hotel_search_adult_count']; ?></div>
+						<div class="atithi-md atithi-md-2 atithi-sm-2 child-head"><p class="atithi_search_captions">Children:</p> <?php echo $search_criteria['hotel_search_children_count']; ?></div>
+						<div class="atithi-md atithi-md-1 atithi-sm-1 last"><a href="?gahb_action=clear_hotel_search" class="atithi_button">Clear Search Filter</a></div>
 </div>
+
+<div class="gahb_clearboth"></div>
 					</div>
 					<hr />
 				<?php } ?>

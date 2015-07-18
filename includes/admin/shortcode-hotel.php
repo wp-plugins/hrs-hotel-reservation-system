@@ -231,7 +231,7 @@ function add_list_hotel_shortcode_func() {
 						<div class="atithi-md-2 atithi-sm-2"><a href="?gahb_action=clear_hotel_search" class="button">Clear Search Filter</a></div>
 
 </div>
-
+					<div class="gahb_clearboth"></div>
 					</div>
 
 

@@ -60,7 +60,7 @@ function add_search_shortcode_func() {
 
     <div class="gahb_core_container gahb_core_hotel_search_box">
 
-      <h3>Search Hotels</h3>
+      <h3 class="gahb_search_hotels">Search Hotels</h3>
 
       <div class="hotel_search_form_box">
 

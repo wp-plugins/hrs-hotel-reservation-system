@@ -1,37 +1,71 @@
 .left-side-check-span {
+
 	display: block;
+
 	margin-bottom: 5px;
+
 }
+
 .booking_checkout_box li {
+
 	display: inline-block;
+
 	margin-bottom: 12px;
+
 	margin-right: 2%;
+
 	text-align: left;
+
 	width: 22%;
+
 }
+
 form.hotel_search_form .select2-container--default .select2-selection--single {
+
 	border: 1px solid #cccccc;
+
 }
+
 form.hotel_search_form .dv_col .fc.input_text.hasDatepicker {
+
 	width: 100%;
+
 }
+
 form.hotel_search_form .atithi_submit_button.atithi-md-3.atithi-sm-3 {
+
 	padding: 0;
+
 	width: 15%;
+
 }
+
 form.hotel_search_form .dv_col.atithi-md-3.atithi-sm-3 input {
+
 	width: 93%;
+
 }
+
 form.hotel_search_form .dv_both_row {
+
 	margin-bottom: 20px;
+
 }
+
 .select2.select2-container.select2-container--default {
+
 	width: 100% !important;
+
 }
+
 .hotel_search_form_errors {
+
 	border: 0px solid #f00;
+
 	margin: 2px;
+
 	padding: 3px;
+
 	color: #f00;/*display: none;*/
 
 
@@ -44,184 +78,1076 @@ form.hotel_search_form .dv_both_row {
 
 
 
-}
-.hotel_search_form_errors_ul {
-	margin: 0;
-	padding: 0;
-	border: 0px solid #f00;
-}
-.hotel_search_form_errors_li {
-	margin: 0;
-	padding: 0;
-	border: 0px solid #f00;
-}
-.gahb_core_container .clearboth {
-	clear:both;
-}
-.gahb_core_container .dv_col {
-  display: inline-block;
-  width: 29%;
-  margin-right: 2.1%;
-}
-.atithi_search_top .has_right_border {
-  border-right: 1px solid #ccc;
-  min-height: 50px;
-  padding: 0px 10px;
-}
-.visible-stb .atithi-md-1.atithi-sm-1 {
-  padding: 0 6px;
-  text-align: center;
-}
-.atithi_search_top {
-	background-color: #fff;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-o-border-radius: 3px;
-	border-radius: 3px;
-	border: solid 1px #ccc;
-	padding:10px;
-}
-.search_filter_data.atithi_search_top h4 {
-	padding-left:15px;
-	margin-top:0px;
-}
-.atithi-search-city-name {
-	font-size: 20px;
-	font-weight: bold;
-	line-height: 1;
-	padding-top: 5%;
-}
-.atithi-search-country_name {
-	font-size: 12px;
-}
-.atithi-md-2.atithi-sm-2 {
-    padding: 0 5px;
-}
-.booking_checkout_box > ul {
-    padding: 0;
-}
-.atithi_search_captions {
-	font-size:9px;
-	font-weight:normal;
-	margin-bottom: 4px;
-	text-transform: uppercase;
-}
-.atithi-md-2.atithi-sm-2.has_right_border {
-    padding-right: 0 !important;
-    width: 17%;
-}
-.atithi-md-1.atithi-sm-1.adults_cls {
-    width: 9%;
-}
-.atithi-check-dates {
-	position: relative;
-}
-/*.arrow_greater {
-	background-position: -1px -203px !important;
-	width: 6px;
-	height: 10px;
-	position: absolute;
-	right: -5px;
-	background: url(../../images/hotel_listing_sprite.png) no-repeat;
-	font-size: 0;
-}*/
-.glyphicon-calendar:before {
-	content: "\e109";
-}
-.atithi-check-dates .glyphicon-calendar {
-	font-size: 18px;
-}
-.glyphicon:empty {
-	width: 1em;
-}
-.dv_col.atithi-md-3.atithi-sm-3 input {
-	width: 100%;
-}
-.dv_col.atithi-md-3.atithi-sm-3 {
-	margin: 0 !important;
-	display: inline !important;
-	padding: 0;
-	width: 25%;
-	margin-right: 5px !important;
-}
-.atithi_submit_button.atithi-md-3.atithi-sm-3 {
-	padding: 0;
-	width: 21%;
-}
-.atithi_submit_button.atithi-md-3.atithi-sm-3 input#hotel_search_submit {
-  padding: 5px 16px;
-  margin-top: 10px;
-}
-.room_book_search.atithi-md-2.atithi-sm-2 a {
-    background-color: #eee;
-    border: 1px solid;
-    border-radius: 3px;
-    color: #777;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 7px 12px;
-    text-align: center;
-    text-decoration: none;
-}
-.room_title_search a {
-    font-size: 18px;
-}
-.atithi-md-2.atithi-sm-2 .atithi_button {
-}
-.atithi_main_conatiner_li {
-	list-style: none;
-	width: 100% !important;
-	display: inline-block;
-	margin-bottom: 15px;
-}
-.room_description_search.atithi-md-2.atithi-sm-2 .atithi_price_room {
-	margin: 0;
-	font-size: 18px;
-	text-align: right;
-	line-height: 15px;
-}
-.room_description_search.atithi-md-2.atithi-sm-2 .atithi_price_room_day {
-	font-size: 9px;
-	text-align: right;
-	font-weight: bold;
-}
-.booking_found_ul_class.heading .booking_found_li_class {
-	list-style: none;
-	display: inline-block;
-	margin-left: 4px;
-	width: 12% !important;
-	vertical-align: top;
-	font-weight: bold;
-}
-ul.booking_found_ul_class.heading {
-	background-color: #eee;
-	padding: 3px 7px;
-	margin: 0;
-	border: 1px solid #777;
-}
-.booking_found_ul_class.details .booking_found_li_class {
-	list-style: none;
-	display: inline-block;
-	margin-left: 4px;
-	width: 12% !important;
-	vertical-align: top;
-}
-ul.booking_found_ul_class.details {
-	border: 1px solid;
-	border-top: 0px #777;
-}
-.hotel_search_data_box ul {
-  padding: 0;
-}
-.room_book_search.atithi-md-2.atithi-sm-2 {
-    display: inline-block;
-    float: right;
-    padding: 0;
-    width: 16%;
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
-.atithi-md-2.atithi-sm-2.child-head {
-    padding: 0;
-    text-align: center;
-    width: 12%;
+.hotel_search_form_errors_ul {
+
+	margin: 0;
+
+	padding: 0;
+
+	border: 0px solid #f00;
+
 }
+
+.hotel_search_form_errors_li {
+
+	margin: 0;
+
+	padding: 0;
+
+	border: 0px solid #f00;
+
+}
+
+.gahb_core_container .clearboth {
+
+	clear:both;
+
+}
+
+.gahb_core_container .dv_col {
+
+  display: inline-block;
+
+  width: 29%;
+
+  margin-right: 2.1%;
+
+}
+
+.atithi_search_top .has_right_border {
+
+  border-right: 1px solid #ccc;
+
+  min-height: 50px;
+
+  padding: 0px 10px;
+
+}
+
+.visible-stb .atithi-md-1.atithi-sm-1 {
+
+  padding: 0;
+
+  text-align: center;
+
+}
+
+.atithi_search_top {
+
+	background-color: #fff;
+
+	-moz-border-radius: 3px;
+
+	-webkit-border-radius: 3px;
+
+	-o-border-radius: 3px;
+
+	border-radius: 3px;
+
+	border: solid 1px #ccc;
+
+	position: relative !important;
+	padding:0px !important;
+
+}
+
+.search_filter_data.atithi_search_top h4 {
+
+	padding-left:15px;
+
+	margin-top:0px;
+
+}
+
+.atithi-search-city-name {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1;
+  padding-top: 5%;
+  line-height: normal !important;
+}
+
+.atithi-search-country_name {
+
+	font-size: 12px;
+
+}
+
+.atithi-md-2.atithi-sm-2 {
+
+    padding: 0;
+
+}
+
+.booking_checkout_box > ul {
+
+    padding: 0;
+
+}
+
+.atithi_search_captions {
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: solid 1px #ccc;
+}
+
+.atithi-md-2.atithi-sm-2.has_right_border {
+
+    padding-right: 0 !important;
+
+    width: 17%;
+
+}
+
+.atithi-md-1.atithi-sm-1.adults_cls {
+
+    width: 9%;
+
+}
+
+.atithi-check-dates {
+
+	position: relative;
+
+}
+
+/*.arrow_greater {
+
+	background-position: -1px -203px !important;
+
+	width: 6px;
+
+	height: 10px;
+
+	position: absolute;
+
+	right: -5px;
+
+	background: url(../../images/hotel_listing_sprite.png) no-repeat;
+
+	font-size: 0;
+
+}*/
+
+.glyphicon-calendar:before {
+
+	content: "\e109";
+
+}
+
+.atithi-check-dates .glyphicon-calendar {
+
+	font-size: 18px;
+
+}
+
+.glyphicon:empty {
+
+	width: 1em;
+
+}
+
+.dv_col.atithi-md-3.atithi-sm-3 input {
+
+	width: 100%;
+
+}
+
+.dv_col.atithi-md-3.atithi-sm-3 {
+
+	margin: 0 !important;
+
+	display: inline !important;
+
+	padding: 0;
+
+	width: 25%;
+
+	margin-right: 5px !important;
+
+}
+
+.atithi_submit_button.atithi-md-3.atithi-sm-3 {
+
+	padding: 0;
+
+	width: 21%;
+
+}
+
+.atithi_submit_button.atithi-md-3.atithi-sm-3 input#hotel_search_submit {
+
+  padding: 5px 16px;
+
+  margin-top: 10px;
+
+}
+
+.room_book_search.atithi-md-2.atithi-sm-2 a {
+
+    background-color: #eee;
+
+    border: 1px solid;
+
+    border-radius: 3px;
+
+    color: #777;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    padding: 7px 12px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+}
+
+.room_title_search a {
+
+    font-size: 18px;
+
+}
+
+.atithi-md-2.atithi-sm-2 .atithi_button {
+
+}
+
+.atithi_main_conatiner_li {
+
+	list-style: none;
+
+	width: 100% !important;
+
+	display: inline-block;
+
+	margin-bottom: 15px;
+
+}
+
+.room_description_search.atithi-md-2.atithi-sm-2 .atithi_price_room {
+
+	margin: 0;
+
+	font-size: 18px;
+
+	text-align: right;
+
+	line-height: 15px;
+
+}
+
+.room_description_search.atithi-md-2.atithi-sm-2 .atithi_price_room_day {
+
+	font-size: 9px;
+
+	text-align: right;
+
+	font-weight: bold;
+
+}
+
+.booking_found_ul_class.heading .booking_found_li_class {
+
+	list-style: none;
+
+	display: inline-block;
+
+	margin-left: 4px;
+
+	width: 12% !important;
+
+	vertical-align: top;
+
+	font-weight: bold;
+
+}
+
+ul.booking_found_ul_class.heading {
+
+	background-color: #eee;
+
+	padding: 3px 7px;
+
+	margin: 0;
+
+	border: 1px solid #777;
+
+}
+
+.booking_found_ul_class.details .booking_found_li_class {
+
+	list-style: none;
+
+	display: inline-block;
+
+	margin-left: 4px;
+
+	width: 12% !important;
+
+	vertical-align: top;
+
+}
+
+ul.booking_found_ul_class.details {
+
+	border: 1px solid;
+
+	border-top: 0px #777;
+
+}
+
+.hotel_search_data_box ul {
+
+  padding: 0;
+
+}
+
+.room_book_search.atithi-md-2.atithi-sm-2 {
+
+    display: inline-block;
+
+    float: right;
+
+    padding: 0;
+
+    width: 16%;
+
+}
+
+
+
+.atithi-md-2.atithi-sm-2.child-head {
+
+    padding: 0;
+
+    text-align: center;
+
+    width: 12%;
+
+}
+
+/******************************************************Bootstrap css***************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.atithi-xs-1, .atithi-sm-1, .atithi-md-1, .atithi-lg-1, .atithi-xs-2, .atithi-sm-2, .atithi-md-2, .atithi-lg-2, .atithi-xs-3, .atithi-sm-3, .atithi-md-3, .atithi-lg-3, .atithi-xs-4, .atithi-sm-4, .atithi-md-4, .atithi-lg-4, .atithi-xs-5, .atithi-sm-5, .atithi-md-5, .atithi-lg-5, .atithi-xs-6, .atithi-sm-6, .atithi-md-6, .atithi-lg-6, .atithi-xs-7, .atithi-sm-7, .atithi-md-7, .atithi-lg-7, .atithi-xs-8, .atithi-sm-8, .atithi-md-8, .atithi-lg-8, .atithi-xs-9, .atithi-sm-9, .atithi-md-9, .atithi-lg-9, .atithi-xs-10, .atithi-sm-10, .atithi-md-10, .atithi-lg-10, .atithi-xs-11, .atithi-sm-11, .atithi-md-11, .atithi-lg-11, .atithi-xs-12, .atithi-sm-12, .atithi-md-12, .atithi-lg-12 {
+	position:relative;
+	min-height:1px;
+	padding-left:15px;
+	padding-right:15px
+}
+.atithi-xs-1, .atithi-xs-2, .atithi-xs-3, .atithi-xs-4, .atithi-xs-5, .atithi-xs-6, .atithi-xs-7, .atithi-xs-8, .atithi-xs-9, .atithi-xs-10, .atithi-xs-11 {
+	float:left
+}
+.atithi-xs-12 {
+	width:100%
+}
+.atithi-xs-11 {
+	width:91.66666666666666%
+}
+.atithi-xs-10 {
+	width:83.33333333333334%
+}
+.atithi-xs-9 {
+	width:75%
+}
+.atithi-xs-8 {
+	width:66.66666666666666%
+}
+.atithi-xs-7 {
+	width:58.333333333333336%
+}
+.atithi-xs-6 {
+	width:50%
+}
+.atithi-xs-5 {
+	width:41.66666666666667%
+}
+.atithi-xs-4 {
+	width:33.33333333333333%
+}
+.atithi-xs-3 {
+	width:25%
+}
+.atithi-xs-2 {
+	width:16.666666666666664%
+}
+.atithi-xs-1 {
+	width:8.333333333333332%
+}
+.atithi-xs-pull-12 {
+	right:100%
+}
+.atithi-xs-pull-11 {
+	right:91.66666666666666%
+}
+.atithi-xs-pull-10 {
+	right:83.33333333333334%
+}
+.atithi-xs-pull-9 {
+	right:75%
+}
+.atithi-xs-pull-8 {
+	right:66.66666666666666%
+}
+.atithi-xs-pull-7 {
+	right:58.333333333333336%
+}
+.atithi-xs-pull-6 {
+	right:50%
+}
+.atithi-xs-pull-5 {
+	right:41.66666666666667%
+}
+.atithi-xs-pull-4 {
+	right:33.33333333333333%
+}
+.atithi-xs-pull-3 {
+	right:25%
+}
+.atithi-xs-pull-2 {
+	right:16.666666666666664%
+}
+.atithi-xs-pull-1 {
+	right:8.333333333333332%
+}
+.atithi-xs-pull-0 {
+	right:0
+}
+.atithi-xs-push-12 {
+	left:100%
+}
+.atithi-xs-push-11 {
+	left:91.66666666666666%
+}
+.atithi-xs-push-10 {
+	left:83.33333333333334%
+}
+.atithi-xs-push-9 {
+	left:75%
+}
+.atithi-xs-push-8 {
+	left:66.66666666666666%
+}
+.atithi-xs-push-7 {
+	left:58.333333333333336%
+}
+.atithi-xs-push-6 {
+	left:50%
+}
+.atithi-xs-push-5 {
+	left:41.66666666666667%
+}
+.atithi-xs-push-4 {
+	left:33.33333333333333%
+}
+.atithi-xs-push-3 {
+	left:25%
+}
+.atithi-xs-push-2 {
+	left:16.666666666666664%
+}
+.atithi-xs-push-1 {
+	left:8.333333333333332%
+}
+.atithi-xs-push-0 {
+	left:0
+}
+.atithi-xs-offset-12 {
+	margin-left:100%
+}
+.atithi-xs-offset-11 {
+	margin-left:91.66666666666666%
+}
+.atithi-xs-offset-10 {
+	margin-left:83.33333333333334%
+}
+.atithi-xs-offset-9 {
+	margin-left:75%
+}
+.atithi-xs-offset-8 {
+	margin-left:66.66666666666666%
+}
+.atithi-xs-offset-7 {
+	margin-left:58.333333333333336%
+}
+.atithi-xs-offset-6 {
+	margin-left:50%
+}
+.atithi-xs-offset-5 {
+	margin-left:41.66666666666667%
+}
+.atithi-xs-offset-4 {
+	margin-left:33.33333333333333%
+}
+.atithi-xs-offset-3 {
+	margin-left:25%
+}
+.atithi-xs-offset-2 {
+	margin-left:16.666666666666664%
+}
+.atithi-xs-offset-1 {
+	margin-left:8.333333333333332%
+}
+.atithi-xs-offset-0 {
+	margin-left:0
+}
+ @media(min-width:768px) {
+
+.atithi-sm-1, .atithi-sm-2, .atithi-sm-3, .atithi-sm-4, .atithi-sm-5, .atithi-sm-6, .atithi-sm-7, .atithi-sm-8, .atithi-sm-9, .atithi-sm-10, .atithi-sm-11 {
+	float:left
+}
+.atithi-sm-12 {
+	width:100%
+}
+.atithi-sm-11 {
+	width:91.66666666666666%
+}
+.atithi-sm-10 {
+	width:83.33333333333334%
+}
+.atithi-sm-9 {
+	width:75%
+}
+.atithi-sm-8 {
+	width:66.66666666666666%
+}
+.atithi-sm-7 {
+	width:58.333333333333336%
+}
+.atithi-sm-6 {
+	width:50%
+}
+.atithi-sm-5 {
+	width:41.66666666666667%
+}
+.atithi-sm-4 {
+	width:33.33333333333333%
+}
+.atithi-sm-3 {
+	width:25%
+}
+.atithi-sm-2 {
+	width:16.666666666666664%
+}
+.atithi-sm-1 {
+	width:8.333333333333332%
+}
+.atithi-sm-pull-12 {
+	right:100%
+}
+.atithi-sm-pull-11 {
+	right:91.66666666666666%
+}
+.atithi-sm-pull-10 {
+	right:83.33333333333334%
+}
+.atithi-sm-pull-9 {
+	right:75%
+}
+.atithi-sm-pull-8 {
+	right:66.66666666666666%
+}
+.atithi-sm-pull-7 {
+	right:58.333333333333336%
+}
+.atithi-sm-pull-6 {
+	right:50%
+}
+.atithi-sm-pull-5 {
+	right:41.66666666666667%
+}
+.atithi-sm-pull-4 {
+	right:33.33333333333333%
+}
+.atithi-sm-pull-3 {
+	right:25%
+}
+.atithi-sm-pull-2 {
+	right:16.666666666666664%
+}
+.atithi-sm-pull-1 {
+	right:8.333333333333332%
+}
+.atithi-sm-pull-0 {
+	right:0
+}
+.atithi-sm-push-12 {
+	left:100%
+}
+.atithi-sm-push-11 {
+	left:91.66666666666666%
+}
+.atithi-sm-push-10 {
+	left:83.33333333333334%
+}
+.atithi-sm-push-9 {
+	left:75%
+}
+.atithi-sm-push-8 {
+	left:66.66666666666666%
+}
+.atithi-sm-push-7 {
+	left:58.333333333333336%
+}
+.atithi-sm-push-6 {
+	left:50%
+}
+.atithi-sm-push-5 {
+	left:41.66666666666667%
+}
+.atithi-sm-push-4 {
+	left:33.33333333333333%
+}
+.atithi-sm-push-3 {
+	left:25%
+}
+.atithi-sm-push-2 {
+	left:16.666666666666664%
+}
+.atithi-sm-push-1 {
+	left:8.333333333333332%
+}
+.atithi-sm-push-0 {
+	left:0
+}
+.atithi-sm-offset-12 {
+	margin-left:100%
+}
+.atithi-sm-offset-11 {
+	margin-left:91.66666666666666%
+}
+.atithi-sm-offset-10 {
+	margin-left:83.33333333333334%
+}
+.atithi-sm-offset-9 {
+	margin-left:75%
+}
+.atithi-sm-offset-8 {
+	margin-left:66.66666666666666%
+}
+.atithi-sm-offset-7 {
+	margin-left:58.333333333333336%
+}
+.atithi-sm-offset-6 {
+	margin-left:50%
+}
+.atithi-sm-offset-5 {
+	margin-left:41.66666666666667%
+}
+.atithi-sm-offset-4 {
+	margin-left:33.33333333333333%
+}
+.atithi-sm-offset-3 {
+	margin-left:25%
+}
+.atithi-sm-offset-2 {
+	margin-left:16.666666666666664%
+}
+.atithi-sm-offset-1 {
+	margin-left:8.333333333333332%
+}
+.atithi-sm-offset-0 {
+	margin-left:0
+}
+}
+ @media(min-width:992px) {
+
+.atithi-md-1, .atithi-md-2, .atithi-md-3, .atithi-md-4, .atithi-md-5, .atithi-md-6, .atithi-md-7, .atithi-md-8, .atithi-md-9, .atithi-md-10, .atithi-md-11 {
+	float:left
+}
+.atithi-md-12 {
+	width:100%
+}
+.atithi-md-11 {
+	width:91.66666666666666%
+}
+.atithi-md-10 {
+	width:83.33333333333334%
+}
+.atithi-md-9 {
+	width:75%
+}
+.atithi-md-8 {
+	width:66.66666666666666%
+}
+.atithi-md-7 {
+	width:58.333333333333336%
+}
+.atithi-md-6 {
+	width:50%
+}
+.atithi-md-5 {
+	width:41.66666666666667%
+}
+.atithi-md-4 {
+	width:33.33333333333333%
+}
+.atithi-md-3 {
+	width:25%
+}
+.atithi-md-2 {
+	width:16.666666666666664%
+}
+.atithi-md-1 {
+	width:8.333333333333332%
+}
+.atithi-md-pull-12 {
+	right:100%
+}
+.atithi-md-pull-11 {
+	right:91.66666666666666%
+}
+.atithi-md-pull-10 {
+	right:83.33333333333334%
+}
+.atithi-md-pull-9 {
+	right:75%
+}
+.atithi-md-pull-8 {
+	right:66.66666666666666%
+}
+.atithi-md-pull-7 {
+	right:58.333333333333336%
+}
+.atithi-md-pull-6 {
+	right:50%
+}
+.atithi-md-pull-5 {
+	right:41.66666666666667%
+}
+.atithi-md-pull-4 {
+	right:33.33333333333333%
+}
+.atithi-md-pull-3 {
+	right:25%
+}
+.atithi-md-pull-2 {
+	right:16.666666666666664%
+}
+.atithi-md-pull-1 {
+	right:8.333333333333332%
+}
+.atithi-md-pull-0 {
+	right:0
+}
+.atithi-md-push-12 {
+	left:100%
+}
+.atithi-md-push-11 {
+	left:91.66666666666666%
+}
+.atithi-md-push-10 {
+	left:83.33333333333334%
+}
+.atithi-md-push-9 {
+	left:75%
+}
+.atithi-md-push-8 {
+	left:66.66666666666666%
+}
+.atithi-md-push-7 {
+	left:58.333333333333336%
+}
+.atithi-md-push-6 {
+	left:50%
+}
+.atithi-md-push-5 {
+	left:41.66666666666667%
+}
+.atithi-md-push-4 {
+	left:33.33333333333333%
+}
+.atithi-md-push-3 {
+	left:25%
+}
+.atithi-md-push-2 {
+	left:16.666666666666664%
+}
+.atithi-md-push-1 {
+	left:8.333333333333332%
+}
+.atithi-md-push-0 {
+	left:0
+}
+.atithi-md-offset-12 {
+	margin-left:100%
+}
+.atithi-md-offset-11 {
+	margin-left:91.66666666666666%
+}
+.atithi-md-offset-10 {
+	margin-left:83.33333333333334%
+}
+.atithi-md-offset-9 {
+	margin-left:75%
+}
+.atithi-md-offset-8 {
+	margin-left:66.66666666666666%
+}
+.atithi-md-offset-7 {
+	margin-left:58.333333333333336%
+}
+.atithi-md-offset-6 {
+	margin-left:50%
+}
+.atithi-md-offset-5 {
+	margin-left:41.66666666666667%
+}
+.atithi-md-offset-4 {
+	margin-left:33.33333333333333%
+}
+.atithi-md-offset-3 {
+	margin-left:25%
+}
+.atithi-md-offset-2 {
+	margin-left:16.666666666666664%
+}
+.atithi-md-offset-1 {
+	margin-left:8.333333333333332%
+}
+.atithi-md-offset-0 {
+	margin-left:0
+}
+}
+ @media(min-width:1200px) {
+.atithi-lg-1, .atithi-lg-2, .atithi-lg-3, .atithi-lg-4, .atithi-lg-5, .atithi-lg-6, .atithi-lg-7, .atithi-lg-8, .atithi-lg-9, .atithi-lg-10, .atithi-lg-11 {
+	float:left
+}
+.atithi-lg-12 {
+	width:100%
+}
+.atithi-lg-11 {
+	width:91.66666666666666%
+}
+.atithi-lg-10 {
+	width:83.33333333333334%
+}
+.atithi-lg-9 {
+	width:75%
+}
+.atithi-lg-8 {
+	width:66.66666666666666%
+}
+.atithi-lg-7 {
+	width:58.333333333333336%
+}
+.atithi-lg-6 {
+	width:50%
+}
+.atithi-lg-5 {
+	width:41.66666666666667%
+}
+.atithi-lg-4 {
+	width:33.33333333333333%
+}
+.atithi-lg-3 {
+	width:25%
+}
+.atithi-lg-2 {
+	width:16.666666666666664%
+}
+.atithi-lg-1 {
+	width:8.333333333333332%
+}
+.atithi-lg-pull-12 {
+	right:100%
+}
+.atithi-lg-pull-11 {
+	right:91.66666666666666%
+}
+.atithi-lg-pull-10 {
+	right:83.33333333333334%
+}
+.atithi-lg-pull-9 {
+	right:75%
+}
+.atithi-lg-pull-8 {
+	right:66.66666666666666%
+}
+.atithi-lg-pull-7 {
+	right:58.333333333333336%
+}
+.atithi-lg-pull-6 {
+	right:50%
+}
+.atithi-lg-pull-5 {
+	right:41.66666666666667%
+}
+.atithi-lg-pull-4 {
+	right:33.33333333333333%
+}
+.atithi-lg-pull-3 {
+	right:25%
+}
+.atithi-lg-pull-2 {
+	right:16.666666666666664%
+}
+.atithi-lg-pull-1 {
+	right:8.333333333333332%
+}
+.atithi-lg-pull-0 {
+	right:0
+}
+.atithi-lg-push-12 {
+	left:100%
+}
+.atithi-lg-push-11 {
+	left:91.66666666666666%
+}
+.atithi-lg-push-10 {
+	left:83.33333333333334%
+}
+.atithi-lg-push-9 {
+	left:75%
+}
+.atithi-lg-push-8 {
+	left:66.66666666666666%
+}
+.atithi-lg-push-7 {
+	left:58.333333333333336%
+}
+.atithi-lg-push-6 {
+	left:50%
+}
+.atithi-lg-push-5 {
+	left:41.66666666666667%
+}
+.atithi-lg-push-4 {
+	left:33.33333333333333%
+}
+.atithi-lg-push-3 {
+	left:25%
+}
+.atithi-lg-push-2 {
+	left:16.666666666666664%
+}
+.atithi-lg-push-1 {
+	left:8.333333333333332%
+}
+.atithi-lg-push-0 {
+	left:0
+}
+.atithi-lg-offset-12 {
+	margin-left:100%
+}
+.atithi-lg-offset-11 {
+	margin-left:91.66666666666666%
+}
+.atithi-lg-offset-10 {
+	margin-left:83.33333333333334%
+}
+.atithi-lg-offset-9 {
+	margin-left:75%
+}
+.atithi-lg-offset-8 {
+	margin-left:66.66666666666666%
+}
+.atithi-lg-offset-7 {
+	margin-left:58.333333333333336%
+}
+.atithi-lg-offset-6 {
+	margin-left:50%
+}
+.atithi-lg-offset-5 {
+	margin-left:41.66666666666667%
+}
+.atithi-lg-offset-4 {
+	margin-left:33.33333333333333%
+}
+.atithi-lg-offset-3 {
+	margin-left:25%
+}
+.atithi-lg-offset-2 {
+	margin-left:16.666666666666664%
+}
+.atithi-lg-offset-1 {
+	margin-left:8.333333333333332%
+}
+.atithi-lg-offset-0 {
+	margin-left:0
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************Bootstrap css***************************************************/
+
+
+
+
+/******************************************************Design css***************************************************/
+
+
+
+
+
+.gahb_clearboth
+{
+	clear:both;
+}
+
+.atithi-md {
+  border-right: 1px solid #ccc;
+    min-height: 100px !important;
+	  text-align: center;
+}
+.atithi-md.atithi-md-2.atithi-sm-3.has_right_border {
+  width: 10%;
+}
+
+
+.atithi-md-1.last {
+  width: 22.5%;
+  border:0 !important;
+}
+.last a.atithi_button {
+  background-color: #ccc;
+  text-decoration: none;
+  color: #fff;
+  padding: 7px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-top: 34px;
+  display: inline-block;
+}
+/******************************************************Design css***************************************************/
