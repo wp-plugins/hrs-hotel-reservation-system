@@ -27,10 +27,10 @@ function add_multiple_rooms_list_shortcode_func() {
 					'posts_per_page'	=>	'10',
 					'paged'				=>	$paged,
 				);
-	
+	$room_list_ids=array();
 	if( isset($room_list) ) {
 		if( $room_list ){
-			$room_list_ids=array();
+			
 			foreach($room_list as $single_room_id)
 			{
 				$room_list_ids[]=$single_room_id["room_id"];
@@ -68,7 +68,7 @@ function add_multiple_rooms_list_shortcode_func() {
 					<hr />
 				<?php } ?>
 				<?php
-				if( $room_found ){
+				if( $room_found && count($room_list_ids) ){
 					$query = new WP_Query( $args );
 					if ( $query->have_posts() ) {
 						$while_count=0;
