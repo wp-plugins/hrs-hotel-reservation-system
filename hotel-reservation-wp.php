@@ -783,6 +783,7 @@ if( !class_exists ( 'HrwpMain' ) ){
 
 
 			include_once GAHB__PLUGIN_DIR_PATH . 'includes/admin/functions.php';
+			include_once GAHB__PLUGIN_DIR_PATH . 'includes/admin/functions-email.php';
 
 
 			include_once GAHB__PLUGIN_DIR_PATH . 'includes/admin/template-functions.php';

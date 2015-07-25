@@ -117,6 +117,18 @@ function add_booking_checkout_shortcode_func() {
 			$table_prefix=$wpdb->prefix;
 
 			$wpdb->query( "INSERT INTO ".$table_prefix."gahb_bookings ( `booking_id`,`hotel_id`,`room_type_id`,`arrival_date`,`departure_date`,`payment`,`payment_method`,`user_id` ) VALUES ( '$booking_id','$booking_hotel_id','$booking_room_id','$booking_arr_date','$booking_dep_date','$charge_per_night','','$booking_user_id')");
+			
+			$booking_data['hotel_link'] = get_permalink( $booking_hotel_id );
+			$booking_data['hotel_name'] = get_the_title( $booking_hotel_id );
+			$booking_data['room_link'] = get_permalink( $booking_room_id );
+			$booking_data['room_name'] = get_the_title( $booking_room_id );
+			$booking_data['arrival_date'] = $booking_arr_date;
+			$booking_data['departure_date'] = $_POST['booking_dep_date'];
+			$booking_data['room_count'] = $_POST['booking_rooms_count'];
+			$booking_data['adult_count'] = $_POST['booking_adult_coun'];
+			$booking_data['children_count'] = $_POST['booking_children_count'];
+			
+			gahb_send_email( $booking_data );
 
 		}
 

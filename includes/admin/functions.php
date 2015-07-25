@@ -154,7 +154,7 @@ function gahb_process_search_hotel_shortcode()
 		return $return;
 }
 function gahb_get_no_image_src(){
-	$src = GAHB__PLUGIN_DIR_PATH . 'assets/images/no-image-available.jpg';
+	$src = GAHB__PLUGIN_URL_PATH . 'assets/images/no-image-available.jpg';
 	return $src;
 }
 function gahb_wp_get_attachment_image_src( $thumbnail_id, $size = 'thumbnail' ){

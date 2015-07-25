@@ -82,12 +82,12 @@ class PayPalConstants
 
 
 
-    //const REST_SANDBOX_ENDPOINT = "https://api.sandbox.paypal.com/";
-	const REST_SANDBOX_ENDPOINT = "https://api.paypal.com/";
+    const REST_SANDBOX_ENDPOINT = "https://api.sandbox.paypal.com/";
+	//const REST_SANDBOX_ENDPOINT = "https://api.paypal.com/";
 
 
-    //const OPENID_REDIRECT_SANDBOX_URL = "https://www.sandbox.paypal.com/webapps/auth/protocol/openidconnect";
-	const OPENID_REDIRECT_SANDBOX_URL = "https://www.paypal.com/webapps/auth/protocol/openidconnect";
+    const OPENID_REDIRECT_SANDBOX_URL = "https://www.sandbox.paypal.com/webapps/auth/protocol/openidconnect";
+	//const OPENID_REDIRECT_SANDBOX_URL = "https://www.paypal.com/webapps/auth/protocol/openidconnect";
 
 
 
