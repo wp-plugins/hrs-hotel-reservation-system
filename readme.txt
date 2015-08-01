@@ -16,7 +16,7 @@ License: GPLv2 or later
 
 
 
-It is a fanatic plugin for the hotel management system. It's make the reservation and booking system so easy to manage that you gonna love it !
+A fantastic plugin for hotel reservation management. It makes the reservation and booking system so easy to manage that you're gonna love it!
 
 
 
@@ -138,7 +138,7 @@ Watch the video tutorial below to learn how Hotel Management System WordPress Pl
 
  
 
-Coming Soon !
+https://vimeo.com/134272744
 
 
 
