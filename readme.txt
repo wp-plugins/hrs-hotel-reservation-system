@@ -8,7 +8,7 @@ Donate link: http://mozakdesign.com
 
 Requires at least: 4.0.0
 
-Tested up to: 4.2.2
+Tested up to: 4.3
 
 Stable tag: 1.0.0
 
